@@ -1,6 +1,10 @@
 {
   "plugins": ["eslint-plugin-tsdoc"],
-  "extends": ["next/core-web-vitals", "plugin:storybook/recommended"],
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:storybook/recommended"
+  ],
   "rules": {
     "tsdoc/syntax": "warn"
   }
