@@ -17,6 +17,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "email-addresses": "^5.0.0",
     "framer-motion": "^11.3.28",
     "next": "14.2.5",
     "react": "^18",
@@ -46,5 +47,6 @@
     "storybook": "^8.2.9",
     "typedoc": "^0.26.5",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@9.7.1+sha1.b0ae55d11432e1af341998848fdc219a62f7623a"
 }
