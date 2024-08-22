@@ -1,11 +1,37 @@
 {
-  "plugins": ["eslint-plugin-tsdoc"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["eslint-plugin-tsdoc", "eslint-plugin-import"],
   "extends": [
     "next/core-web-vitals",
     "prettier",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:@typescript-eslint/strict"
   ],
   "rules": {
+    // TypeScript
+    "@typescript-eslint/strict-boolean-expressions": [
+      "error",
+      { "allowNumber": false }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ],
+        "newlines-between": "always-and-inside-groups"
+      }
+    ],
+    // TSDoc
     "tsdoc/syntax": "warn"
   }
 }

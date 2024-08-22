@@ -37,14 +37,17 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5",
+    "eslint-config-next": "^14.2.5",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-tsdoc": "^0.3.0",
     "prettier": "^3.3.3",
     "storybook": "^8.2.9",
     "typedoc": "^0.26.5",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^8.2.0"
   }
 }
